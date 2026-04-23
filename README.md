@@ -23,6 +23,7 @@ to address semantic inconsistency and structural noise under sparse supervision.
 - **MOOCCube**
 - **Amazon (Product)**  
 Get the datasets from https://drive.google.com/drive/folders/1Yx2-q2yhO629IVaZsjhBzbhmd6QR3s1G?usp=drive_link
+
 Data includes interaction data, meta-path graphs, and denoised structural graphs.
 
 ## Generate Denoised Graph
