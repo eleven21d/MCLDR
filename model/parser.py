@@ -29,9 +29,6 @@ def parse_args():
     parser.add_argument('--dec_num_layer', type=int, default=1)
     parser.add_argument('--denoise_lambda', type=float, default=0.2,help='coefficient for denoising contrastive loss')
     parser.add_argument('--fusion_alpha', type=float, default=0.1)
-    parser.add_argument('--mask_rate', type=float, default=0.1)
-    parser.add_argument('--remask_rate', type=float, default=0.1)
-    parser.add_argument('--num_remasking', type=int, default=1)
     parser.add_argument('--replace_bpr', type=int, default=1)  # 1=True, 0=False
     
     return parser.parse_args()
