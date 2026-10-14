@@ -33,7 +33,7 @@ def run(data_dir, out_dir, beta=0.4, cold_deg_thresh=2, auto=True):
         type_map = {
             "uc": ("user", "course"),
             "uk": ("user", "concept"),
-            "cv": ("concept", "video"),
+            "cv": ("course", "video"),
             "vk": ("video", "concept"),
             "ct": ("course", "teacher")
         }
